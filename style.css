@@ -2,6 +2,59 @@
   padding: 5px;
 }
 
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)),
+    url(office.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "29LT Azer";
+}
+.wrap {
+  margin: 150px auto 0 auto;
+  width: 420px;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+}
+.block {
+  text-align: right;
+  line-height: 40px;
+}
+
+.items {
+  position: absolute;
+  top: 155px;
+  right: 485px;
+}
+button {
+  border-radius: 20px;
+  background: rgb(18, 115, 153);
+  width: 15vh;
+  height: 5vh;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 500px;
+  top: 345px;
+  font-size: 18px;
+  font-family: "29LT Azer";
+}
+button:hover {
+  background: purple;
+  transition: 1s;
+}
 input {
+  border-radius: 10px;
+  height: 25px;
   display: block;
+}
+label {
+  font-size: 20px;
+}
+.divRS {
+  position: absolute;
+  top: 240px;
+  left: 540px;
 }
