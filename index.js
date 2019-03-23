@@ -27,7 +27,6 @@ function calculateMarks() {
 function borderColorTMA() {
   if (isNaN(document.getElementById("tma").value)) {
     document.getElementById("tma").style = "border: solid red 2px";
-    alert("أدخل قيمة صحيحة");
   } else {
     document.getElementById("tma").style = "border: solid green 2px";
   }
@@ -35,7 +34,6 @@ function borderColorTMA() {
 function borderColorMID() {
   if (isNaN(document.getElementById("mid").value)) {
     document.getElementById("mid").style = "border: solid red 2px";
-    alert("أدخل قيمة صحيحة");
   } else {
     document.getElementById("mid").style = "border: solid green 2px";
   }
@@ -43,7 +41,6 @@ function borderColorMID() {
 function borderColorFinal() {
   if (isNaN(document.getElementById("final").value)) {
     document.getElementById("final").style = "border: solid red 2px";
-    alert("أدخل قيمة صحيحة");
   } else {
     document.getElementById("final").style = "border: solid green 2px";
   }

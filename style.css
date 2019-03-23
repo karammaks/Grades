@@ -49,6 +49,11 @@ input {
   border-radius: 10px;
   height: 25px;
   display: block;
+  font-size: 18px;
+  width: 150px;
+}
+input:focus {
+  outline: none;
 }
 label {
   font-size: 20px;
@@ -56,5 +61,18 @@ label {
 .divRS {
   position: absolute;
   top: 240px;
-  left: 540px;
+  left: 505px;
 }
+
+.divST {
+  position: absolute;
+  top: 210px;
+  left: 505px;
+}
+.leftItem {
+  text-align: right;
+}
+
+/*.result {
+  align-content: right;
+}*/
